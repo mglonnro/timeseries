@@ -1,5 +1,5 @@
 class TimeSeries {
-  constructor({resolution, data}) {
+  constructor({ resolution, data }) {
     this.resolution = resolution;
     this.data = Object.assign([], data);
   }
@@ -15,7 +15,7 @@ class TimeSeries {
       }
     }
 
-    return new TimeSeries({resolution: this.resolution, data: newData});
+    return new TimeSeries({ resolution: this.resolution, data: newData });
   }
 
   max(column) {
