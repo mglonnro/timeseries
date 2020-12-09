@@ -19,4 +19,4 @@ class TimeRange {
   }
 }
 
-module.exports = TimeRange;
+export default TimeRange;

@@ -53,4 +53,4 @@ class TimeSeries {
   }
 }
 
-module.exports = TimeSeries;
+export default TimeSeries;

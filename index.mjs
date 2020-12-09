@@ -1,5 +1,5 @@
-import TimeData from "./TimeData";
-import TimeRange from "./TimeRange";
-import TimeSeries from "./TimeSeries";
+import TimeData from "./TimeData.mjs";
+import TimeRange from "./TimeRange.mjs";
+import TimeSeries from "./TimeSeries.mjs";
 
 export { TimeData, TimeRange, TimeSeries };

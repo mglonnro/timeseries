@@ -1,4 +1,4 @@
-const TimeRange = require("./TimeRange");
+import TimeRange from "./TimeRange.mjs";
 
 class TimeData {
   constructor(d) {
@@ -200,4 +200,4 @@ class TimeData {
   }
 }
 
-module.exports = TimeData;
+export default TimeData;
