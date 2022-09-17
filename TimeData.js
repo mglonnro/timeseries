@@ -1,4 +1,4 @@
-import TimeRange from "./TimeRange.mjs";
+import TimeRange from "./TimeRange.js";
 
 class TimeData {
   constructor(d) {
